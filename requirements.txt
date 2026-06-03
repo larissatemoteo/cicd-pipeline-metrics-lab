@@ -1,0 +1,7 @@
+# Dependencias de runtime. Pesadas de proposito para que o tempo de instalacao
+# seja relevante e o efeito do cache seja mensuravel na esteira.
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
