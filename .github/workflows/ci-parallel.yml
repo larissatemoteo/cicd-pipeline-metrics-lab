@@ -35,7 +35,7 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Cache pip
-        if: ${{ ! inputs.disable_cache }}
+        if: ${{ github.event.inputs.disable_cache != 'true' }}
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
@@ -55,7 +55,7 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Cache pip
-        if: ${{ ! inputs.disable_cache }}
+        if: ${{ github.event.inputs.disable_cache != 'true' }}
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
@@ -79,7 +79,7 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Cache pip
-        if: ${{ ! inputs.disable_cache }}
+        if: ${{ github.event.inputs.disable_cache != 'true' }}
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
@@ -111,7 +111,7 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
       - name: Cache pip
-        if: ${{ ! inputs.disable_cache }}
+        if: ${{ github.event.inputs.disable_cache != 'true' }}
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
