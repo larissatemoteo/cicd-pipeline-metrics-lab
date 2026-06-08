@@ -17,24 +17,24 @@ O experimento instrumenta um pipeline CI/CD real no GitHub Actions, coleta métr
 
 | Run ID | Variação | Workflow | Testes | Status | Duração (s) |
 |--------|----------|----------|--------|--------|-------------|
-| 26890773247 | baseline (cache on) | Parallel | 30 | success | 85 |
-| 27111075820 | sem cache | Parallel | 30 | success | 83 |
-| 27111088259 | baseline | Parallel | 30 | success | 86 |
-| 27111094652 | baseline | Parallel | 30 | success | 90 |
-| 27111131368 | baseline | Parallel | 30 | success | 84 |
-| 27111168379 | baseline | Parallel | 30 | success | 84 |
-| 27111179702 | falha de lint | Parallel | 30 | failure | 79 |
-| 27111220647 | b Parallel | 30 | success | 80 |
-| 27111294367 | sem cache | Parallel | 30 | success | 78 |
-| 27111295107 | falha de teste | Parallel | 30 | failure | 44 |
-| 27111295730 | scale 2 | Parallel | 50 | success | 81 |
-| 27111296457 | scale 4 | Parallel | 90 | success | 80 |
-| 27111297230 | teste lento | Parallel | 30 | success | 93 |
-| 27111297990 | sequencial | Sequential | 30 | success | 169 |
-| 27111298701 | sequencial | Sequential | 30 | success | 166 |
-| 27111827535 | baseline | Parallel | 30 | success | 77 |
-| 27111832983 | sem cache | Parallel | 30 | success | 78 |
-| 27111833687 | sem cache | Parallel | 30 | success | 80 |
+| [26890773247](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/26890773247) | baseline (cache on) | Parallel | 30 | success | 85 |
+| [27111075820](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111075820) | sem cache | Parallel | 30 | success | 83 |
+| [27111088259](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111088259) | baseline | Parallel | 30 | success | 86 |
+| [27111094652](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111094652) | baseline | Parallel | 30 | success | 90 |
+| [27111131368](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111131368) | baseline | Parallel | 30 | success | 84 |
+| [27111168379](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111168379) | baseline | Parallel | 30 | success | 84 |
+| [27111179702](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111179702) | falha de lint | Parallel | 30 | failure | 79 |
+| [27111220647](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111220647) | b Parallel | 30 | success | 80 |
+| [27111294367](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111294367) | sem cache | Parallel | 30 | success | 78 |
+| [27111295107](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111295107) | falha de teste | Parallel | 30 | failure | 44 |
+| [27111295730](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111295730) | scale 2 | Parallel | 50 | success | 81 |
+| [27111296457](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111296457) | scale 4 | Parallel | 90 | success | 80 |
+| [27111297230](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111297230) | teste lento | Parallel | 30 | success | 93 |
+| [27111297990](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111297990) | sequencial | Sequential | 30 | success | 169 |
+| [27111298701](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111298701) | sequencial | Sequential | 30 | success | 166 |
+| [27111827535](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111827535) | baseline | Parallel | 30 | success | 77 |
+| [27111832983](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111832983) | sem cache | Parallel | 30 | success | 78 |
+| [27111833687](https://github.com/larissatemoteo/cicd-pipeline-metrics-lab/actions/runs/27111833687) | sem cache | Parallel | 30 | success | 80 |
 
 Commits reais: `852c145` (estrutura), `d2bca24` (script), `1c06ddb` (falha de lint), `8152ca3` (revert), `3c166a9` (correção do cache).
 
