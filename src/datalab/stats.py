@@ -28,3 +28,5 @@ def zscore(series: pd.Series) -> pd.Series:
 def correlation_matrix(df: pd.DataFrame) -> pd.DataFrame:
     """Matriz de correlacao das colunas numericas."""
     return df.select_dtypes(include="number").corr()
+
+import os  # falha de lint proposital
