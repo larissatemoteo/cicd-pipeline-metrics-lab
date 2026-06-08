@@ -98,3 +98,17 @@ Runners compartilhados do GitHub têm variação fora de controle. A variação 
 2. Disparar execuções: `./scripts/run_experiment.sh` (com `gh` autenticado) e um commit com import não utilizado para a falha de lint.
 3. Coletar: `export GITHUB_TOKEN=$(gh auth token)` e `python scrip-repo <usuario>/cicd-pipeline-metrics-lab`.
 4. Gráficos: `python scripts/plot_metrics.py`.
+
+## Prints das execucoes reais
+
+![01_lista_execucoes](prints/01_lista_execucoes.png)
+
+![02_run_paralelo_sucesso](prints/02_run_paralelo_sucesso.png)
+
+![03_run_falha_teste](prints/03_run_falha_teste.png)
+
+![03b_run_falha_lint](prints/03b_run_falha_lint.png)
+
+![04_run_sequencial](prints/04_run_sequencial.png)
+
+![05_cache_skipped](prints/05_cache_skipped.png)
