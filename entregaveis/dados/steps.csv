@@ -1,0 +1,748 @@
+run_id,job_name,step_name,step_number,step_duration,conclusion
+27111833687,test,Set up job,1,2.0,success
+27111833687,test,Run actions/checkout@v4,2,0.0,success
+27111833687,test,Run actions/setup-python@v5,3,1.0,success
+27111833687,test,Cache pip,4,0.0,skipped
+27111833687,test,Instalar dependencias,5,26.0,success
+27111833687,test,Testes (pytest + JUnit),6,2.0,success
+27111833687,test,Resumir metricas de teste,7,0.0,success
+27111833687,test,Upload do artefato com resultados,8,1.0,success
+27111833687,test,Post Run actions/setup-python@v5,15,1.0,success
+27111833687,test,Post Run actions/checkout@v4,16,0.0,success
+27111833687,test,Complete job,17,0.0,success
+27111833687,lint,Set up job,1,1.0,success
+27111833687,lint,Run actions/checkout@v4,2,1.0,success
+27111833687,lint,Run actions/setup-python@v5,3,0.0,success
+27111833687,lint,Cache pip,4,0.0,skipped
+27111833687,lint,Instalar dependencias,5,32.0,success
+27111833687,lint,Lint (ruff),6,0.0,success
+27111833687,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111833687,lint,Post Run actions/checkout@v4,12,0.0,success
+27111833687,lint,Complete job,13,0.0,success
+27111833687,typecheck,Set up job,1,1.0,success
+27111833687,typecheck,Run actions/checkout@v4,2,0.0,success
+27111833687,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111833687,typecheck,Cache pip,4,0.0,skipped
+27111833687,typecheck,Instalar dependencias,5,31.0,success
+27111833687,typecheck,Type check (mypy),6,5.0,success
+27111833687,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111833687,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111833687,typecheck,Complete job,13,0.0,success
+27111833687,build,Set up job,1,1.0,success
+27111833687,build,Run actions/checkout@v4,2,1.0,success
+27111833687,build,Run actions/setup-python@v5,3,0.0,success
+27111833687,build,Cache pip,4,0.0,skipped
+27111833687,build,Instalar dependencias,5,28.0,success
+27111833687,build,Build do pacote,6,4.0,success
+27111833687,build,Upload do artefato de build,7,0.0,success
+27111833687,build,Post Run actions/setup-python@v5,13,0.0,success
+27111833687,build,Post Run actions/checkout@v4,14,1.0,success
+27111833687,build,Complete job,15,0.0,success
+27111832983,test,Set up job,1,1.0,success
+27111832983,test,Run actions/checkout@v4,2,0.0,success
+27111832983,test,Run actions/setup-python@v5,3,0.0,success
+27111832983,test,Cache pip,4,0.0,skipped
+27111832983,test,Instalar dependencias,5,29.0,success
+27111832983,test,Testes (pytest + JUnit),6,3.0,success
+27111832983,test,Resumir metricas de teste,7,0.0,success
+27111832983,test,Upload do artefato com resultados,8,0.0,success
+27111832983,test,Post Run actions/setup-python@v5,15,0.0,success
+27111832983,test,Post Run actions/checkout@v4,16,1.0,success
+27111832983,test,Complete job,17,0.0,success
+27111832983,typecheck,Set up job,1,1.0,success
+27111832983,typecheck,Run actions/checkout@v4,2,1.0,success
+27111832983,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111832983,typecheck,Cache pip,4,0.0,skipped
+27111832983,typecheck,Instalar dependencias,5,27.0,success
+27111832983,typecheck,Type check (mypy),6,3.0,success
+27111832983,typecheck,Post Run actions/setup-python@v5,11,1.0,success
+27111832983,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111832983,typecheck,Complete job,13,0.0,success
+27111832983,lint,Set up job,1,1.0,success
+27111832983,lint,Run actions/checkout@v4,2,0.0,success
+27111832983,lint,Run actions/setup-python@v5,3,1.0,success
+27111832983,lint,Cache pip,4,0.0,skipped
+27111832983,lint,Instalar dependencias,5,28.0,success
+27111832983,lint,Lint (ruff),6,0.0,success
+27111832983,lint,Post Run actions/setup-python@v5,11,1.0,success
+27111832983,lint,Post Run actions/checkout@v4,12,0.0,success
+27111832983,lint,Complete job,13,0.0,success
+27111832983,build,Set up job,1,1.0,success
+27111832983,build,Run actions/checkout@v4,2,0.0,success
+27111832983,build,Run actions/setup-python@v5,3,0.0,success
+27111832983,build,Cache pip,4,0.0,skipped
+27111832983,build,Instalar dependencias,5,28.0,success
+27111832983,build,Build do pacote,6,4.0,success
+27111832983,build,Upload do artefato de build,7,0.0,success
+27111832983,build,Post Run actions/setup-python@v5,13,0.0,success
+27111832983,build,Post Run actions/checkout@v4,14,1.0,success
+27111832983,build,Complete job,15,0.0,success
+27111827535,test,Set up job,1,1.0,success
+27111827535,test,Run actions/checkout@v4,2,1.0,success
+27111827535,test,Run actions/setup-python@v5,3,0.0,success
+27111827535,test,Cache pip,4,1.0,success
+27111827535,test,Instalar dependencias,5,24.0,success
+27111827535,test,Testes (pytest + JUnit),6,3.0,success
+27111827535,test,Resumir metricas de teste,7,0.0,success
+27111827535,test,Upload do artefato com resultados,8,1.0,success
+27111827535,test,Post Cache pip,14,0.0,success
+27111827535,test,Post Run actions/setup-python@v5,15,0.0,success
+27111827535,test,Post Run actions/checkout@v4,16,0.0,success
+27111827535,test,Complete job,17,0.0,success
+27111827535,lint,Set up job,1,0.0,success
+27111827535,lint,Run actions/checkout@v4,2,1.0,success
+27111827535,lint,Run actions/setup-python@v5,3,0.0,success
+27111827535,lint,Cache pip,4,3.0,success
+27111827535,lint,Instalar dependencias,5,22.0,success
+27111827535,lint,Lint (ruff),6,0.0,success
+27111827535,lint,Post Cache pip,10,0.0,success
+27111827535,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111827535,lint,Post Run actions/checkout@v4,12,1.0,success
+27111827535,lint,Complete job,13,0.0,success
+27111827535,typecheck,Set up job,1,1.0,success
+27111827535,typecheck,Run actions/checkout@v4,2,1.0,success
+27111827535,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111827535,typecheck,Cache pip,4,1.0,success
+27111827535,typecheck,Instalar dependencias,5,29.0,success
+27111827535,typecheck,Type check (mypy),6,4.0,success
+27111827535,typecheck,Post Cache pip,10,0.0,success
+27111827535,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111827535,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111827535,typecheck,Complete job,13,0.0,success
+27111827535,build,Set up job,1,1.0,success
+27111827535,build,Run actions/checkout@v4,2,1.0,success
+27111827535,build,Run actions/setup-python@v5,3,0.0,success
+27111827535,build,Cache pip,4,2.0,success
+27111827535,build,Instalar dependencias,5,26.0,success
+27111827535,build,Build do pacote,6,4.0,success
+27111827535,build,Upload do artefato de build,7,1.0,success
+27111827535,build,Post Cache pip,12,0.0,success
+27111827535,build,Post Run actions/setup-python@v5,13,0.0,success
+27111827535,build,Post Run actions/checkout@v4,14,0.0,success
+27111827535,build,Complete job,15,0.0,success
+27111298701,lint,Set up job,1,1.0,success
+27111298701,lint,Run actions/checkout@v4,2,0.0,success
+27111298701,lint,Run actions/setup-python@v5,3,0.0,success
+27111298701,lint,Cache pip,4,3.0,success
+27111298701,lint,Instalar dependencias,5,21.0,success
+27111298701,lint,Lint (ruff),6,0.0,success
+27111298701,lint,Post Cache pip,10,1.0,success
+27111298701,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111298701,lint,Post Run actions/checkout@v4,12,0.0,success
+27111298701,lint,Complete job,13,0.0,success
+27111298701,typecheck,Set up job,1,0.0,success
+27111298701,typecheck,Run actions/checkout@v4,2,1.0,success
+27111298701,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111298701,typecheck,Cache pip,4,1.0,success
+27111298701,typecheck,Instalar dependencias,5,30.0,success
+27111298701,typecheck,Type check (mypy),6,4.0,success
+27111298701,typecheck,Post Cache pip,10,0.0,success
+27111298701,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111298701,typecheck,Post Run actions/checkout@v4,12,1.0,success
+27111298701,typecheck,Complete job,13,0.0,success
+27111298701,test,Set up job,1,2.0,success
+27111298701,test,Run actions/checkout@v4,2,1.0,success
+27111298701,test,Run actions/setup-python@v5,3,0.0,success
+27111298701,test,Cache pip,4,1.0,success
+27111298701,test,Instalar dependencias,5,29.0,success
+27111298701,test,Testes (pytest + JUnit),6,4.0,success
+27111298701,test,Resumir metricas de teste,7,0.0,success
+27111298701,test,Upload do artefato com resultados,8,0.0,success
+27111298701,test,Post Cache pip,14,0.0,success
+27111298701,test,Post Run actions/setup-python@v5,15,1.0,success
+27111298701,test,Post Run actions/checkout@v4,16,0.0,success
+27111298701,test,Complete job,17,0.0,success
+27111298701,build,Set up job,1,1.0,success
+27111298701,build,Run actions/checkout@v4,2,1.0,success
+27111298701,build,Run actions/setup-python@v5,3,0.0,success
+27111298701,build,Cache pip,4,2.0,success
+27111298701,build,Instalar dependencias,5,33.0,success
+27111298701,build,Build do pacote,6,5.0,success
+27111298701,build,Upload do artefato de build,7,0.0,success
+27111298701,build,Post Cache pip,12,0.0,success
+27111298701,build,Post Run actions/setup-python@v5,13,1.0,success
+27111298701,build,Post Run actions/checkout@v4,14,0.0,success
+27111298701,build,Complete job,15,0.0,success
+27111297990,lint,Set up job,1,1.0,success
+27111297990,lint,Run actions/checkout@v4,2,0.0,success
+27111297990,lint,Run actions/setup-python@v5,3,0.0,success
+27111297990,lint,Cache pip,4,2.0,success
+27111297990,lint,Instalar dependencias,5,28.0,success
+27111297990,lint,Lint (ruff),6,0.0,success
+27111297990,lint,Post Cache pip,10,0.0,success
+27111297990,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111297990,lint,Post Run actions/checkout@v4,12,0.0,success
+27111297990,lint,Complete job,13,0.0,success
+27111297990,typecheck,Set up job,1,1.0,success
+27111297990,typecheck,Run actions/checkout@v4,2,1.0,success
+27111297990,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111297990,typecheck,Cache pip,4,2.0,success
+27111297990,typecheck,Instalar dependencias,5,23.0,success
+27111297990,typecheck,Type check (mypy),6,3.0,success
+27111297990,typecheck,Post Cache pip,10,1.0,success
+27111297990,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111297990,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111297990,typecheck,Complete job,13,0.0,success
+27111297990,test,Set up job,1,1.0,success
+27111297990,test,Run actions/checkout@v4,2,1.0,success
+27111297990,test,Run actions/setup-python@v5,3,1.0,success
+27111297990,test,Cache pip,4,3.0,success
+27111297990,test,Instalar dependencias,5,27.0,success
+27111297990,test,Testes (pytest + JUnit),6,3.0,success
+27111297990,test,Resumir metricas de teste,7,0.0,success
+27111297990,test,Upload do artefato com resultados,8,2.0,success
+27111297990,test,Post Cache pip,14,0.0,success
+27111297990,test,Post Run actions/setup-python@v5,15,0.0,success
+27111297990,test,Post Run actions/checkout@v4,16,0.0,success
+27111297990,test,Complete job,17,0.0,success
+27111297990,build,Set up job,1,1.0,success
+27111297990,build,Run actions/checkout@v4,2,1.0,success
+27111297990,build,Run actions/setup-python@v5,3,0.0,success
+27111297990,build,Cache pip,4,3.0,success
+27111297990,build,Instalar dependencias,5,31.0,success
+27111297990,build,Build do pacote,6,4.0,success
+27111297990,build,Upload do artefato de build,7,1.0,success
+27111297990,build,Post Cache pip,12,0.0,success
+27111297990,build,Post Run actions/setup-python@v5,13,1.0,success
+27111297990,build,Post Run actions/checkout@v4,14,0.0,success
+27111297990,build,Complete job,15,0.0,success
+27111297230,lint,Set up job,1,1.0,success
+27111297230,lint,Run actions/checkout@v4,2,1.0,success
+27111297230,lint,Run actions/setup-python@v5,3,0.0,success
+27111297230,lint,Cache pip,4,3.0,success
+27111297230,lint,Instalar dependencias,5,30.0,success
+27111297230,lint,Lint (ruff),6,0.0,success
+27111297230,lint,Post Cache pip,10,0.0,success
+27111297230,lint,Post Run actions/setup-python@v5,11,1.0,success
+27111297230,lint,Post Run actions/checkout@v4,12,0.0,success
+27111297230,lint,Complete job,13,0.0,success
+27111297230,typecheck,Set up job,1,1.0,success
+27111297230,typecheck,Run actions/checkout@v4,2,0.0,success
+27111297230,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111297230,typecheck,Cache pip,4,1.0,success
+27111297230,typecheck,Instalar dependencias,5,27.0,success
+27111297230,typecheck,Type check (mypy),6,4.0,success
+27111297230,typecheck,Post Cache pip,10,0.0,success
+27111297230,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111297230,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111297230,typecheck,Complete job,13,0.0,success
+27111297230,test,Set up job,1,1.0,success
+27111297230,test,Run actions/checkout@v4,2,0.0,success
+27111297230,test,Run actions/setup-python@v5,3,1.0,success
+27111297230,test,Cache pip,4,1.0,success
+27111297230,test,Instalar dependencias,5,28.0,success
+27111297230,test,Testes (pytest + JUnit),6,15.0,success
+27111297230,test,Resumir metricas de teste,7,0.0,success
+27111297230,test,Upload do artefato com resultados,8,1.0,success
+27111297230,test,Post Cache pip,14,0.0,success
+27111297230,test,Post Run actions/setup-python@v5,15,0.0,success
+27111297230,test,Post Run actions/checkout@v4,16,0.0,success
+27111297230,test,Complete job,17,0.0,success
+27111297230,build,Set up job,1,1.0,success
+27111297230,build,Run actions/checkout@v4,2,0.0,success
+27111297230,build,Run actions/setup-python@v5,3,0.0,success
+27111297230,build,Cache pip,4,3.0,success
+27111297230,build,Instalar dependencias,5,24.0,success
+27111297230,build,Build do pacote,6,3.0,success
+27111297230,build,Upload do artefato de build,7,1.0,success
+27111297230,build,Post Cache pip,12,0.0,success
+27111297230,build,Post Run actions/setup-python@v5,13,0.0,success
+27111297230,build,Post Run actions/checkout@v4,14,0.0,success
+27111297230,build,Complete job,15,0.0,success
+27111296457,typecheck,Set up job,1,1.0,success
+27111296457,typecheck,Run actions/checkout@v4,2,1.0,success
+27111296457,typecheck,Run actions/setup-python@v5,3,1.0,success
+27111296457,typecheck,Cache pip,4,3.0,success
+27111296457,typecheck,Instalar dependencias,5,25.0,success
+27111296457,typecheck,Type check (mypy),6,3.0,success
+27111296457,typecheck,Post Cache pip,10,0.0,success
+27111296457,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111296457,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111296457,typecheck,Complete job,13,0.0,success
+27111296457,lint,Set up job,1,1.0,success
+27111296457,lint,Run actions/checkout@v4,2,1.0,success
+27111296457,lint,Run actions/setup-python@v5,3,0.0,success
+27111296457,lint,Cache pip,4,2.0,success
+27111296457,lint,Instalar dependencias,5,30.0,success
+27111296457,lint,Lint (ruff),6,0.0,success
+27111296457,lint,Post Cache pip,10,0.0,success
+27111296457,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111296457,lint,Post Run actions/checkout@v4,12,0.0,success
+27111296457,lint,Complete job,13,0.0,success
+27111296457,test,Set up job,1,1.0,success
+27111296457,test,Run actions/checkout@v4,2,0.0,success
+27111296457,test,Run actions/setup-python@v5,3,1.0,success
+27111296457,test,Cache pip,4,1.0,success
+27111296457,test,Instalar dependencias,5,27.0,success
+27111296457,test,Testes (pytest + JUnit),6,3.0,success
+27111296457,test,Resumir metricas de teste,7,0.0,success
+27111296457,test,Upload do artefato com resultados,8,0.0,success
+27111296457,test,Post Cache pip,14,1.0,success
+27111296457,test,Post Run actions/setup-python@v5,15,0.0,success
+27111296457,test,Post Run actions/checkout@v4,16,0.0,success
+27111296457,test,Complete job,17,0.0,success
+27111296457,build,Set up job,1,1.0,success
+27111296457,build,Run actions/checkout@v4,2,1.0,success
+27111296457,build,Run actions/setup-python@v5,3,0.0,success
+27111296457,build,Cache pip,4,1.0,success
+27111296457,build,Instalar dependencias,5,27.0,success
+27111296457,build,Build do pacote,6,4.0,success
+27111296457,build,Upload do artefato de build,7,0.0,success
+27111296457,build,Post Cache pip,12,1.0,success
+27111296457,build,Post Run actions/setup-python@v5,13,0.0,success
+27111296457,build,Post Run actions/checkout@v4,14,0.0,success
+27111296457,build,Complete job,15,0.0,success
+27111295730,typecheck,Set up job,1,1.0,success
+27111295730,typecheck,Run actions/checkout@v4,2,1.0,success
+27111295730,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111295730,typecheck,Cache pip,4,3.0,success
+27111295730,typecheck,Instalar dependencias,5,23.0,success
+27111295730,typecheck,Type check (mypy),6,4.0,success
+27111295730,typecheck,Post Cache pip,10,0.0,success
+27111295730,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111295730,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111295730,typecheck,Complete job,13,0.0,success
+27111295730,test,Set up job,1,1.0,success
+27111295730,test,Run actions/checkout@v4,2,1.0,success
+27111295730,test,Run actions/setup-python@v5,3,0.0,success
+27111295730,test,Cache pip,4,1.0,success
+27111295730,test,Instalar dependencias,5,28.0,success
+27111295730,test,Testes (pytest + JUnit),6,3.0,success
+27111295730,test,Resumir metricas de teste,7,1.0,success
+27111295730,test,Upload do artefato com resultados,8,0.0,success
+27111295730,test,Post Cache pip,14,0.0,success
+27111295730,test,Post Run actions/setup-python@v5,15,0.0,success
+27111295730,test,Post Run actions/checkout@v4,16,1.0,success
+27111295730,test,Complete job,17,0.0,success
+27111295730,lint,Set up job,1,1.0,success
+27111295730,lint,Run actions/checkout@v4,2,1.0,success
+27111295730,lint,Run actions/setup-python@v5,3,0.0,success
+27111295730,lint,Cache pip,4,3.0,success
+27111295730,lint,Instalar dependencias,5,26.0,success
+27111295730,lint,Lint (ruff),6,0.0,success
+27111295730,lint,Post Cache pip,10,0.0,success
+27111295730,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111295730,lint,Post Run actions/checkout@v4,12,0.0,success
+27111295730,lint,Complete job,13,0.0,success
+27111295730,build,Set up job,1,1.0,success
+27111295730,build,Run actions/checkout@v4,2,1.0,success
+27111295730,build,Run actions/setup-python@v5,3,0.0,success
+27111295730,build,Cache pip,4,1.0,success
+27111295730,build,Instalar dependencias,5,27.0,success
+27111295730,build,Build do pacote,6,4.0,success
+27111295730,build,Upload do artefato de build,7,0.0,success
+27111295730,build,Post Cache pip,12,1.0,success
+27111295730,build,Post Run actions/setup-python@v5,13,0.0,success
+27111295730,build,Post Run actions/checkout@v4,14,0.0,success
+27111295730,build,Complete job,15,0.0,success
+27111295107,lint,Set up job,1,1.0,success
+27111295107,lint,Run actions/checkout@v4,2,1.0,success
+27111295107,lint,Run actions/setup-python@v5,3,0.0,success
+27111295107,lint,Cache pip,4,4.0,success
+27111295107,lint,Instalar dependencias,5,25.0,success
+27111295107,lint,Lint (ruff),6,0.0,success
+27111295107,lint,Post Cache pip,10,1.0,success
+27111295107,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111295107,lint,Post Run actions/checkout@v4,12,0.0,success
+27111295107,lint,Complete job,13,0.0,success
+27111295107,typecheck,Set up job,1,1.0,success
+27111295107,typecheck,Run actions/checkout@v4,2,1.0,success
+27111295107,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111295107,typecheck,Cache pip,4,3.0,success
+27111295107,typecheck,Instalar dependencias,5,27.0,success
+27111295107,typecheck,Type check (mypy),6,4.0,success
+27111295107,typecheck,Post Cache pip,10,0.0,success
+27111295107,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111295107,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111295107,typecheck,Complete job,13,0.0,success
+27111295107,test,Set up job,1,1.0,success
+27111295107,test,Run actions/checkout@v4,2,0.0,success
+27111295107,test,Run actions/setup-python@v5,3,0.0,success
+27111295107,test,Cache pip,4,1.0,success
+27111295107,test,Instalar dependencias,5,26.0,success
+27111295107,test,Testes (pytest + JUnit),6,3.0,failure
+27111295107,test,Resumir metricas de teste,7,0.0,success
+27111295107,test,Upload do artefato com resultados,8,1.0,success
+27111295107,test,Post Cache pip,14,0.0,skipped
+27111295107,test,Post Run actions/setup-python@v5,15,0.0,skipped
+27111295107,test,Post Run actions/checkout@v4,16,0.0,success
+27111295107,test,Complete job,17,0.0,success
+27111294367,lint,Set up job,1,1.0,success
+27111294367,lint,Run actions/checkout@v4,2,1.0,success
+27111294367,lint,Run actions/setup-python@v5,3,0.0,success
+27111294367,lint,Cache pip,4,0.0,skipped
+27111294367,lint,Instalar dependencias,5,27.0,success
+27111294367,lint,Lint (ruff),6,0.0,success
+27111294367,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111294367,lint,Post Run actions/checkout@v4,12,1.0,success
+27111294367,lint,Complete job,13,0.0,success
+27111294367,typecheck,Set up job,1,1.0,success
+27111294367,typecheck,Run actions/checkout@v4,2,0.0,success
+27111294367,typecheck,Run actions/setup-python@v5,3,1.0,success
+27111294367,typecheck,Cache pip,4,0.0,skipped
+27111294367,typecheck,Instalar dependencias,5,27.0,success
+27111294367,typecheck,Type check (mypy),6,4.0,success
+27111294367,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111294367,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111294367,typecheck,Complete job,13,0.0,success
+27111294367,test,Set up job,1,1.0,success
+27111294367,test,Run actions/checkout@v4,2,0.0,success
+27111294367,test,Run actions/setup-python@v5,3,1.0,success
+27111294367,test,Cache pip,4,0.0,skipped
+27111294367,test,Instalar dependencias,5,26.0,success
+27111294367,test,Testes (pytest + JUnit),6,3.0,success
+27111294367,test,Resumir metricas de teste,7,0.0,success
+27111294367,test,Upload do artefato com resultados,8,0.0,success
+27111294367,test,Post Run actions/setup-python@v5,15,1.0,success
+27111294367,test,Post Run actions/checkout@v4,16,0.0,success
+27111294367,test,Complete job,17,0.0,success
+27111294367,build,Set up job,1,1.0,success
+27111294367,build,Run actions/checkout@v4,2,1.0,success
+27111294367,build,Run actions/setup-python@v5,3,0.0,success
+27111294367,build,Cache pip,4,0.0,skipped
+27111294367,build,Instalar dependencias,5,29.0,success
+27111294367,build,Build do pacote,6,3.0,success
+27111294367,build,Upload do artefato de build,7,1.0,success
+27111294367,build,Post Run actions/setup-python@v5,13,0.0,success
+27111294367,build,Post Run actions/checkout@v4,14,0.0,success
+27111294367,build,Complete job,15,0.0,success
+27111220647,typecheck,Set up job,1,1.0,success
+27111220647,typecheck,Run actions/checkout@v4,2,1.0,success
+27111220647,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111220647,typecheck,Cache pip,4,3.0,success
+27111220647,typecheck,Instalar dependencias,5,23.0,success
+27111220647,typecheck,Type check (mypy),6,2.0,success
+27111220647,typecheck,Post Cache pip,10,0.0,success
+27111220647,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111220647,typecheck,Post Run actions/checkout@v4,12,1.0,success
+27111220647,typecheck,Complete job,13,0.0,success
+27111220647,lint,Set up job,1,1.0,success
+27111220647,lint,Run actions/checkout@v4,2,0.0,success
+27111220647,lint,Run actions/setup-python@v5,3,1.0,success
+27111220647,lint,Cache pip,4,1.0,success
+27111220647,lint,Instalar dependencias,5,27.0,success
+27111220647,lint,Lint (ruff),6,0.0,success
+27111220647,lint,Post Cache pip,10,1.0,success
+27111220647,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111220647,lint,Post Run actions/checkout@v4,12,0.0,success
+27111220647,lint,Complete job,13,0.0,success
+27111220647,test,Set up job,1,1.0,success
+27111220647,test,Run actions/checkout@v4,2,0.0,success
+27111220647,test,Run actions/setup-python@v5,3,0.0,success
+27111220647,test,Cache pip,4,1.0,success
+27111220647,test,Instalar dependencias,5,29.0,success
+27111220647,test,Testes (pytest + JUnit),6,3.0,success
+27111220647,test,Resumir metricas de teste,7,0.0,success
+27111220647,test,Upload do artefato com resultados,8,0.0,success
+27111220647,test,Post Cache pip,14,1.0,success
+27111220647,test,Post Run actions/setup-python@v5,15,0.0,success
+27111220647,test,Post Run actions/checkout@v4,16,0.0,success
+27111220647,test,Complete job,17,0.0,success
+27111220647,build,Set up job,1,1.0,success
+27111220647,build,Run actions/checkout@v4,2,1.0,success
+27111220647,build,Run actions/setup-python@v5,3,0.0,success
+27111220647,build,Cache pip,4,2.0,success
+27111220647,build,Instalar dependencias,5,25.0,success
+27111220647,build,Build do pacote,6,4.0,success
+27111220647,build,Upload do artefato de build,7,1.0,success
+27111220647,build,Post Cache pip,12,0.0,success
+27111220647,build,Post Run actions/setup-python@v5,13,0.0,success
+27111220647,build,Post Run actions/checkout@v4,14,0.0,success
+27111220647,build,Complete job,15,0.0,success
+27111179702,test,Set up job,1,1.0,success
+27111179702,test,Run actions/checkout@v4,2,0.0,success
+27111179702,test,Run actions/setup-python@v5,3,0.0,success
+27111179702,test,Cache pip,4,2.0,success
+27111179702,test,Instalar dependencias,5,25.0,success
+27111179702,test,Testes (pytest + JUnit),6,3.0,success
+27111179702,test,Resumir metricas de teste,7,0.0,success
+27111179702,test,Upload do artefato com resultados,8,1.0,success
+27111179702,test,Post Cache pip,14,0.0,success
+27111179702,test,Post Run actions/setup-python@v5,15,0.0,success
+27111179702,test,Post Run actions/checkout@v4,16,0.0,success
+27111179702,test,Complete job,17,0.0,success
+27111179702,typecheck,Set up job,1,0.0,success
+27111179702,typecheck,Run actions/checkout@v4,2,1.0,success
+27111179702,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111179702,typecheck,Cache pip,4,2.0,success
+27111179702,typecheck,Instalar dependencias,5,26.0,success
+27111179702,typecheck,Type check (mypy),6,3.0,success
+27111179702,typecheck,Post Cache pip,10,0.0,success
+27111179702,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111179702,typecheck,Post Run actions/checkout@v4,12,1.0,success
+27111179702,typecheck,Complete job,13,0.0,success
+27111179702,lint,Set up job,1,1.0,success
+27111179702,lint,Run actions/checkout@v4,2,1.0,success
+27111179702,lint,Run actions/setup-python@v5,3,0.0,success
+27111179702,lint,Cache pip,4,3.0,success
+27111179702,lint,Instalar dependencias,5,27.0,success
+27111179702,lint,Lint (ruff),6,0.0,failure
+27111179702,lint,Post Cache pip,10,0.0,skipped
+27111179702,lint,Post Run actions/setup-python@v5,11,0.0,skipped
+27111179702,lint,Post Run actions/checkout@v4,12,0.0,success
+27111179702,lint,Complete job,13,0.0,success
+27111179702,build,Set up job,1,1.0,success
+27111179702,build,Run actions/checkout@v4,2,0.0,success
+27111179702,build,Run actions/setup-python@v5,3,0.0,success
+27111179702,build,Cache pip,4,2.0,success
+27111179702,build,Instalar dependencias,5,27.0,success
+27111179702,build,Build do pacote,6,4.0,success
+27111179702,build,Upload do artefato de build,7,1.0,success
+27111179702,build,Post Cache pip,12,0.0,success
+27111179702,build,Post Run actions/setup-python@v5,13,0.0,success
+27111179702,build,Post Run actions/checkout@v4,14,0.0,success
+27111179702,build,Complete job,15,0.0,success
+27111168379,lint,Set up job,1,1.0,success
+27111168379,lint,Run actions/checkout@v4,2,1.0,success
+27111168379,lint,Run actions/setup-python@v5,3,0.0,success
+27111168379,lint,Cache pip,4,1.0,success
+27111168379,lint,Instalar dependencias,5,28.0,success
+27111168379,lint,Lint (ruff),6,0.0,success
+27111168379,lint,Post Cache pip,10,0.0,success
+27111168379,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111168379,lint,Post Run actions/checkout@v4,12,0.0,success
+27111168379,lint,Complete job,13,0.0,success
+27111168379,test,Set up job,1,1.0,success
+27111168379,test,Run actions/checkout@v4,2,0.0,success
+27111168379,test,Run actions/setup-python@v5,3,1.0,success
+27111168379,test,Cache pip,4,1.0,success
+27111168379,test,Instalar dependencias,5,26.0,success
+27111168379,test,Testes (pytest + JUnit),6,3.0,success
+27111168379,test,Resumir metricas de teste,7,0.0,success
+27111168379,test,Upload do artefato com resultados,8,1.0,success
+27111168379,test,Post Cache pip,14,0.0,success
+27111168379,test,Post Run actions/setup-python@v5,15,0.0,success
+27111168379,test,Post Run actions/checkout@v4,16,0.0,success
+27111168379,test,Complete job,17,1.0,success
+27111168379,typecheck,Set up job,1,1.0,success
+27111168379,typecheck,Run actions/checkout@v4,2,1.0,success
+27111168379,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111168379,typecheck,Cache pip,4,1.0,success
+27111168379,typecheck,Instalar dependencias,5,25.0,success
+27111168379,typecheck,Type check (mypy),6,3.0,success
+27111168379,typecheck,Post Cache pip,10,1.0,success
+27111168379,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111168379,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111168379,typecheck,Complete job,13,0.0,success
+27111168379,build,Set up job,1,1.0,success
+27111168379,build,Run actions/checkout@v4,2,1.0,success
+27111168379,build,Run actions/setup-python@v5,3,0.0,success
+27111168379,build,Cache pip,4,1.0,success
+27111168379,build,Instalar dependencias,5,30.0,success
+27111168379,build,Build do pacote,6,4.0,success
+27111168379,build,Upload do artefato de build,7,0.0,success
+27111168379,build,Post Cache pip,12,0.0,success
+27111168379,build,Post Run actions/setup-python@v5,13,1.0,success
+27111168379,build,Post Run actions/checkout@v4,14,0.0,success
+27111168379,build,Complete job,15,0.0,success
+27111131368,lint,Set up job,1,0.0,success
+27111131368,lint,Run actions/checkout@v4,2,1.0,success
+27111131368,lint,Run actions/setup-python@v5,3,0.0,success
+27111131368,lint,Cache pip,4,2.0,success
+27111131368,lint,Instalar dependencias,5,24.0,success
+27111131368,lint,Lint (ruff),6,0.0,success
+27111131368,lint,Post Cache pip,10,0.0,success
+27111131368,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111131368,lint,Post Run actions/checkout@v4,12,0.0,success
+27111131368,lint,Complete job,13,0.0,success
+27111131368,test,Set up job,1,1.0,success
+27111131368,test,Run actions/checkout@v4,2,1.0,success
+27111131368,test,Run actions/setup-python@v5,3,0.0,success
+27111131368,test,Cache pip,4,3.0,success
+27111131368,test,Instalar dependencias,5,21.0,success
+27111131368,test,Testes (pytest + JUnit),6,2.0,success
+27111131368,test,Resumir metricas de teste,7,0.0,success
+27111131368,test,Upload do artefato com resultados,8,1.0,success
+27111131368,test,Post Cache pip,14,0.0,success
+27111131368,test,Post Run actions/setup-python@v5,15,0.0,success
+27111131368,test,Post Run actions/checkout@v4,16,0.0,success
+27111131368,test,Complete job,17,0.0,success
+27111131368,typecheck,Set up job,1,1.0,success
+27111131368,typecheck,Run actions/checkout@v4,2,1.0,success
+27111131368,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111131368,typecheck,Cache pip,4,1.0,success
+27111131368,typecheck,Instalar dependencias,5,28.0,success
+27111131368,typecheck,Type check (mypy),6,3.0,success
+27111131368,typecheck,Post Cache pip,10,1.0,success
+27111131368,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111131368,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111131368,typecheck,Complete job,13,0.0,success
+27111131368,build,Set up job,1,2.0,success
+27111131368,build,Run actions/checkout@v4,2,0.0,success
+27111131368,build,Run actions/setup-python@v5,3,1.0,success
+27111131368,build,Cache pip,4,3.0,success
+27111131368,build,Instalar dependencias,5,28.0,success
+27111131368,build,Build do pacote,6,4.0,success
+27111131368,build,Upload do artefato de build,7,1.0,success
+27111131368,build,Post Cache pip,12,0.0,success
+27111131368,build,Post Run actions/setup-python@v5,13,0.0,success
+27111131368,build,Post Run actions/checkout@v4,14,0.0,success
+27111131368,build,Complete job,15,1.0,success
+27111094652,test,Set up job,1,1.0,success
+27111094652,test,Run actions/checkout@v4,2,1.0,success
+27111094652,test,Run actions/setup-python@v5,3,0.0,success
+27111094652,test,Cache pip,4,2.0,success
+27111094652,test,Instalar dependencias,5,27.0,success
+27111094652,test,Testes (pytest + JUnit),6,3.0,success
+27111094652,test,Resumir metricas de teste,7,0.0,success
+27111094652,test,Upload do artefato com resultados,8,1.0,success
+27111094652,test,Post Cache pip,14,0.0,success
+27111094652,test,Post Run actions/setup-python@v5,15,0.0,success
+27111094652,test,Post Run actions/checkout@v4,16,0.0,success
+27111094652,test,Complete job,17,0.0,success
+27111094652,typecheck,Set up job,1,0.0,success
+27111094652,typecheck,Run actions/checkout@v4,2,1.0,success
+27111094652,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111094652,typecheck,Cache pip,4,1.0,success
+27111094652,typecheck,Instalar dependencias,5,27.0,success
+27111094652,typecheck,Type check (mypy),6,4.0,success
+27111094652,typecheck,Post Cache pip,10,0.0,success
+27111094652,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111094652,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111094652,typecheck,Complete job,13,0.0,success
+27111094652,lint,Set up job,1,1.0,success
+27111094652,lint,Run actions/checkout@v4,2,0.0,success
+27111094652,lint,Run actions/setup-python@v5,3,1.0,success
+27111094652,lint,Cache pip,4,1.0,success
+27111094652,lint,Instalar dependencias,5,25.0,success
+27111094652,lint,Lint (ruff),6,0.0,success
+27111094652,lint,Post Cache pip,10,0.0,success
+27111094652,lint,Post Run actions/setup-python@v5,11,1.0,success
+27111094652,lint,Post Run actions/checkout@v4,12,0.0,success
+27111094652,lint,Complete job,13,0.0,success
+27111094652,build,Set up job,1,1.0,success
+27111094652,build,Run actions/checkout@v4,2,2.0,success
+27111094652,build,Run actions/setup-python@v5,3,0.0,success
+27111094652,build,Cache pip,4,3.0,success
+27111094652,build,Instalar dependencias,5,29.0,success
+27111094652,build,Build do pacote,6,5.0,success
+27111094652,build,Upload do artefato de build,7,1.0,success
+27111094652,build,Post Cache pip,12,0.0,success
+27111094652,build,Post Run actions/setup-python@v5,13,0.0,success
+27111094652,build,Post Run actions/checkout@v4,14,0.0,success
+27111094652,build,Complete job,15,0.0,success
+27111088259,typecheck,Set up job,1,1.0,success
+27111088259,typecheck,Run actions/checkout@v4,2,1.0,success
+27111088259,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111088259,typecheck,Cache pip,4,3.0,success
+27111088259,typecheck,Instalar dependencias,5,28.0,success
+27111088259,typecheck,Type check (mypy),6,4.0,success
+27111088259,typecheck,Post Cache pip,10,1.0,success
+27111088259,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111088259,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111088259,typecheck,Complete job,13,0.0,success
+27111088259,test,Set up job,1,1.0,success
+27111088259,test,Run actions/checkout@v4,2,1.0,success
+27111088259,test,Run actions/setup-python@v5,3,0.0,success
+27111088259,test,Cache pip,4,3.0,success
+27111088259,test,Instalar dependencias,5,28.0,success
+27111088259,test,Testes (pytest + JUnit),6,3.0,success
+27111088259,test,Resumir metricas de teste,7,0.0,success
+27111088259,test,Upload do artefato com resultados,8,1.0,success
+27111088259,test,Post Cache pip,14,1.0,success
+27111088259,test,Post Run actions/setup-python@v5,15,0.0,success
+27111088259,test,Post Run actions/checkout@v4,16,0.0,success
+27111088259,test,Complete job,17,0.0,success
+27111088259,lint,Set up job,1,0.0,success
+27111088259,lint,Run actions/checkout@v4,2,1.0,success
+27111088259,lint,Run actions/setup-python@v5,3,0.0,success
+27111088259,lint,Cache pip,4,3.0,success
+27111088259,lint,Instalar dependencias,5,23.0,success
+27111088259,lint,Lint (ruff),6,0.0,success
+27111088259,lint,Post Cache pip,10,0.0,success
+27111088259,lint,Post Run actions/setup-python@v5,11,0.0,success
+27111088259,lint,Post Run actions/checkout@v4,12,0.0,success
+27111088259,lint,Complete job,13,0.0,success
+27111088259,build,Set up job,1,1.0,success
+27111088259,build,Run actions/checkout@v4,2,0.0,success
+27111088259,build,Run actions/setup-python@v5,3,1.0,success
+27111088259,build,Cache pip,4,1.0,success
+27111088259,build,Instalar dependencias,5,26.0,success
+27111088259,build,Build do pacote,6,4.0,success
+27111088259,build,Upload do artefato de build,7,0.0,success
+27111088259,build,Post Cache pip,12,0.0,success
+27111088259,build,Post Run actions/setup-python@v5,13,1.0,success
+27111088259,build,Post Run actions/checkout@v4,14,0.0,success
+27111088259,build,Complete job,15,0.0,success
+27111075820,typecheck,Set up job,1,1.0,success
+27111075820,typecheck,Run actions/checkout@v4,2,1.0,success
+27111075820,typecheck,Run actions/setup-python@v5,3,0.0,success
+27111075820,typecheck,Cache pip,4,0.0,skipped
+27111075820,typecheck,Instalar dependencias,5,29.0,success
+27111075820,typecheck,Type check (mypy),6,4.0,success
+27111075820,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+27111075820,typecheck,Post Run actions/checkout@v4,12,0.0,success
+27111075820,typecheck,Complete job,13,0.0,success
+27111075820,lint,Set up job,1,1.0,success
+27111075820,lint,Run actions/checkout@v4,2,1.0,success
+27111075820,lint,Run actions/setup-python@v5,3,0.0,success
+27111075820,lint,Cache pip,4,0.0,skipped
+27111075820,lint,Instalar dependencias,5,29.0,success
+27111075820,lint,Lint (ruff),6,0.0,success
+27111075820,lint,Post Run actions/setup-python@v5,11,1.0,success
+27111075820,lint,Post Run actions/checkout@v4,12,0.0,success
+27111075820,lint,Complete job,13,0.0,success
+27111075820,test,Set up job,1,1.0,success
+27111075820,test,Run actions/checkout@v4,2,0.0,success
+27111075820,test,Run actions/setup-python@v5,3,0.0,success
+27111075820,test,Cache pip,4,0.0,skipped
+27111075820,test,Instalar dependencias,5,27.0,success
+27111075820,test,Testes (pytest + JUnit),6,2.0,success
+27111075820,test,Resumir metricas de teste,7,1.0,success
+27111075820,test,Upload do artefato com resultados,8,0.0,success
+27111075820,test,Post Run actions/setup-python@v5,15,0.0,success
+27111075820,test,Post Run actions/checkout@v4,16,0.0,success
+27111075820,test,Complete job,17,1.0,success
+27111075820,build,Set up job,1,1.0,success
+27111075820,build,Run actions/checkout@v4,2,1.0,success
+27111075820,build,Run actions/setup-python@v5,3,0.0,success
+27111075820,build,Cache pip,4,0.0,skipped
+27111075820,build,Instalar dependencias,5,31.0,success
+27111075820,build,Build do pacote,6,3.0,success
+27111075820,build,Upload do artefato de build,7,1.0,success
+27111075820,build,Post Run actions/setup-python@v5,13,0.0,success
+27111075820,build,Post Run actions/checkout@v4,14,0.0,success
+27111075820,build,Complete job,15,0.0,success
+26890773247,lint,Set up job,1,1.0,success
+26890773247,lint,Run actions/checkout@v4,2,0.0,success
+26890773247,lint,Run actions/setup-python@v5,3,1.0,success
+26890773247,lint,Cache pip,4,0.0,success
+26890773247,lint,Instalar dependencias,5,28.0,success
+26890773247,lint,Lint (ruff),6,0.0,success
+26890773247,lint,Post Cache pip,10,3.0,success
+26890773247,lint,Post Run actions/setup-python@v5,11,1.0,success
+26890773247,lint,Post Run actions/checkout@v4,12,0.0,success
+26890773247,lint,Complete job,13,0.0,success
+26890773247,typecheck,Set up job,1,2.0,success
+26890773247,typecheck,Run actions/checkout@v4,2,0.0,success
+26890773247,typecheck,Run actions/setup-python@v5,3,1.0,success
+26890773247,typecheck,Cache pip,4,0.0,success
+26890773247,typecheck,Instalar dependencias,5,28.0,success
+26890773247,typecheck,Type check (mypy),6,3.0,success
+26890773247,typecheck,Post Cache pip,10,1.0,success
+26890773247,typecheck,Post Run actions/setup-python@v5,11,0.0,success
+26890773247,typecheck,Post Run actions/checkout@v4,12,0.0,success
+26890773247,typecheck,Complete job,13,0.0,success
+26890773247,test,Set up job,1,1.0,success
+26890773247,test,Run actions/checkout@v4,2,1.0,success
+26890773247,test,Run actions/setup-python@v5,3,0.0,success
+26890773247,test,Cache pip,4,0.0,success
+26890773247,test,Instalar dependencias,5,31.0,success
+26890773247,test,Testes (pytest + JUnit),6,3.0,success
+26890773247,test,Resumir metricas de teste,7,0.0,success
+26890773247,test,Upload do artefato com resultados,8,1.0,success
+26890773247,test,Post Cache pip,14,0.0,success
+26890773247,test,Post Run actions/setup-python@v5,15,1.0,success
+26890773247,test,Post Run actions/checkout@v4,16,0.0,success
+26890773247,test,Complete job,17,0.0,success
+26890773247,build,Set up job,1,1.0,success
+26890773247,build,Run actions/checkout@v4,2,1.0,success
+26890773247,build,Run actions/setup-python@v5,3,0.0,success
+26890773247,build,Cache pip,4,1.0,success
+26890773247,build,Instalar dependencias,5,25.0,success
+26890773247,build,Build do pacote,6,4.0,success
+26890773247,build,Upload do artefato de build,7,0.0,success
+26890773247,build,Post Cache pip,12,1.0,success
+26890773247,build,Post Run actions/setup-python@v5,13,0.0,success
+26890773247,build,Post Run actions/checkout@v4,14,0.0,success
+26890773247,build,Complete job,15,0.0,success

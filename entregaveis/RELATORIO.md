@@ -48,13 +48,13 @@ Disparadas via `gh workflow run` com inputs controlados, e a falha de lint via c
 
 ## 5. Gráficos
 
-![Tempo total por execução](reports/charts/01_tempo_total_por_execucao.png)
+![Tempo total por execução](graficos/01_tempo_total_por_execucao.png)
 
-![Tempo médio por job](reports/charts/02_tempo_por_job.png)
+![Tempo médio por job](graficos/02_tempo_por_job.png)
 
-![Taxa de sucesso e falha](reports/charts/03_taxa_sucesso_falha.png)
+![Taxa de sucesso e falha](graficos/03_taxa_sucesso_falha.png)
 
-![Relação entre quantidade de testes e duração](reports/charts/04_testes_vs_duracao.png)
+![Relação entre quantidade de testes e duração](graficos/04_testes_vs_duracao.png)
 
 ## 6. Análise
 
